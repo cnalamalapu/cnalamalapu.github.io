@@ -65,3 +65,14 @@ h3 {
 i {
     color: #777;
 }
+a[target="_blank"] {
+    text-decoration: none;
+    color: #007BFF;
+    display: inline-flex;
+    align-items: center;
+}
+
+a[target="_blank"] i {
+    margin-right: 5px;
+    color: #777;
+}
