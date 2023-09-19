@@ -16,7 +16,6 @@ header {
     display: flex;
     align-items: flex-start;
     border-bottom: 2px solid #3498db;
-    padding-bottom: 20px;
     margin-bottom: 20px;
 }
 .Name {
@@ -52,7 +51,6 @@ h2 u {
     color: #3498db;
 }
 ul {
-    list-style-type: none;
     padding: 0;
 }
 li {
@@ -67,9 +65,10 @@ i {
 }
 a[target="_blank"] {
     text-decoration: none;
-    color: #007BFF;
+    color: red;
     display: inline-flex;
     align-items: center;
+    font-size: 26px;
 }
 
 a[target="_blank"] i {
